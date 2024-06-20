@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fancy Navigation Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <a href="#"><i class="fas fa-star"></i> FancyNav</a>
+        </div>
+        <ul class="navbar-menu">
+            <li class="navbar-item"><a href="#home">Home</a></li>
+            <li class="navbar-item"><a href="#about">About</a></li>
+            <li class="navbar-item"><a href="#services">Services</a></li>
+            <li class="navbar-item"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1>Welcome to FancyNav</h1>
+        <p>Explore the stylish and interactive navigation menu that enhances user experience.</p>
+        <img src="https://images.unsplash.com/photo-1506765515384-028b60a970df" alt="Home Image">
+    </section>
+    <section id="about">
+        <h1>About Us</h1>
+        <p>FancyNav is dedicated to creating beautiful and functional web interfaces. Our team of designers and developers work tirelessly to ensure that your website not only looks great but also provides an excellent user experience.</p>
+        <p>We believe in the power of simplicity and elegance, combining both to deliver a seamless digital experience.</p>
+        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0" alt="About Image">
+    </section>
+    <section id="services">
+        <h1>Our Services</h1>
+        <ul>
+            <li><i class="fas fa-code"></i> Web Development: Building responsive and modern websites.</li>
+            <li><i class="fas fa-paint-brush"></i> Design: Crafting visually stunning and user-friendly interfaces.</li>
+            <li><i class="fas fa-mobile-alt"></i> Mobile Apps: Developing intuitive and engaging mobile applications.</li>
+            <li><i class="fas fa-search"></i> SEO: Optimizing your site to rank higher in search engines.</li>
+        </ul>
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Services Image">
+    </section>
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you! Whether you have a question about our services or just want to say hello, feel free to get in touch.</p>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" alt="Contact Image">
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
